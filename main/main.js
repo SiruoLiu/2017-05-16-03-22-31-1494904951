@@ -13,7 +13,7 @@ module.exports = function main(inputs) {
     for(var i=0;i<num.length;i++)
     {
         var item=parseInt(num[i]);
-     switch (item):
+     switch (item)
     {case 0:
              mArray[0][1]="_";
              mArray[1][0]="|";
