@@ -1,6 +1,7 @@
 module.exports = function main(inputs) {
   //  console.log("Debug Info");
-    var num=inputs.split("");
+    var a=inputs;
+  var num=a.split("");
     //  console.log(num[0]);
     var mArray = [[".",".","."],[".",".","."],[".",".","."]];
     var tArray = new Array();  //先声明一维
