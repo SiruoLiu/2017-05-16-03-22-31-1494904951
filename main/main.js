@@ -2,7 +2,7 @@ module.exports = function main(inputs) {
   //  console.log("Debug Info");
     var num=inputs.split("");
     //  console.log(num[0]);
-    var mArray = [["...","...","..."],["...","...","..."],["...","...","..."]];
+    var mArray = [[".",".","."],[".",".","."],[".",".","."]];
     var tArray = new Array();  //先声明一维
     for(var k=0;k<3;k++){    //一维长度为i,i为变量，可以根据实际情况改
        tArray[k]=new Array();  //声明二维，每一个一维数组里面的一个元素都是一个数组；
