@@ -1,5 +1,5 @@
 module.exports = function main(inputs) {
-  //  console.log("Debug Info");
+    console.log("Debug Info");
     var a=inputs;
   var num=a.split("");
     //  console.log(num[0]);
