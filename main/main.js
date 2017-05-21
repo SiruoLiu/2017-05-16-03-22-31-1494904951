@@ -95,7 +95,7 @@ module.exports = function main(inputs) {
         tArray[2][i*3+1]=mArray[2][1];
         tArray[2][i*3+2]=mArray[2][2];
      }
-    }
+    
    var print=new Array();
     print[0]=tArray[0].join("");
     print[1]=tArray[1].join("");
