@@ -92,6 +92,10 @@ module.exports = function main(inputs) {
         tArray[2][i*3+2]=mArray[2][2];
      }
     }
-
-    return 'Hello World!';
+   var print=new Array();
+    print[0]=tArray[0].join("");
+    print[1]=tArray[1].join("");
+    print[2]=tArray[2].join("");
+    var list=print[0]+"\n"+print[1]+"\n"+print[2]+"\n";
+    return list;
 };
