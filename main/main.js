@@ -10,6 +10,7 @@ module.exports = function main(inputs) {
        for(var j=0;j<3*num.length;j++){   //一维数组里面每个元素数组可以包含的数量p，p也是一个变量；
        tArray[k][j]="";    //这里将变量初始化，我这边统一初始化为空，后面在用所需的值覆盖里面的值
          }
+        }
     for(var i=0;i<num.length;i++)
     { 
       var mArray = [[".",".","."],[".",".","."],[".",".","."]];
