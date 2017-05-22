@@ -96,7 +96,9 @@ module.exports = function main(inputs) {
         tArray[2][i*4+0]=mArray[2][0];
         tArray[2][i*4+1]=mArray[2][1];
         tArray[2][i*4+2]=mArray[2][2];
+       if(i!=2){
         tArray[2][i*4+3]=" ";
+           }
      }
     
    var print=new Array();
