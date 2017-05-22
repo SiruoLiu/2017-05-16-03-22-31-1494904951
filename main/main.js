@@ -85,19 +85,21 @@ module.exports = function main(inputs) {
              mArray[2][2]="|";
             break;
       }
-     tArray[0][i*4+0]=mArray[0][0];
+        tArray[0][i*4+0]=mArray[0][0];
         tArray[0][i*4+1]=mArray[0][1];
         tArray[0][i*4+2]=mArray[0][2];
-        tArray[0][i*4+3]=" ";
+       
         tArray[1][i*4+0]=mArray[1][0];
         tArray[1][i*4+1]=mArray[1][1];
         tArray[1][i*4+2]=mArray[1][2];
-        tArray[1][i*4+3]=" ";
+        
         tArray[2][i*4+0]=mArray[2][0];
         tArray[2][i*4+1]=mArray[2][1];
         tArray[2][i*4+2]=mArray[2][2];
-       if(i!=2){
+        if(i!=num.length){
         tArray[2][i*4+3]=" ";
+         tArray[0][i*4+3]=" ";  
+        tArray[1][i*4+3]=" ";
            }
      }
     
